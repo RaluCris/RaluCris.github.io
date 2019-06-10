@@ -22,7 +22,7 @@ p {
     top : 50px;
 }
 
-.homeTitle , .subTitle, .quotesTitle, .booksTitle, .tipsTitle, {
+.homeTitle , .subTitle, .quotesTitle, .booksTitle, .tipsTitle {
     color: #0d3728;
 }
 
@@ -48,7 +48,7 @@ p {
 
 .buttonCont {
     position: absolute;
-    top: 60%;
+    top: 50%;
 }
 
 .button {
@@ -57,7 +57,7 @@ p {
     background-color: #0a3d31;
     font-size: 20px;
     font-weight: bold;
-    height: 90px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -66,9 +66,10 @@ p {
     border-radius: 5px;
 }
 
-.freeGolf img {
-    width :80%;
+.diploma {
+    width :57%;
     height: auto;
+    border: 3px solid #0a3d31;
 }
 
 .grass{
@@ -86,13 +87,13 @@ p {
     height:40px;
 }
 
-
+.subHeading {
+    margin-top:20px;
+}
 
 .secondImg {
-    width: 80%;
+    width: 100%;
     height: auto;
-    border: 1px solid transparent;
-    border-radius: 5px;
 }
 
 .homeIntroCont {
@@ -101,10 +102,10 @@ p {
 }
 
 .flex1-a {
-    width:60%;
+    width:100%;
 }
 .flex1-b {
-    width:40%
+    width:100%
 }
 
 .imgCont img{
@@ -125,7 +126,7 @@ p {
 }
 
 .book {
-    width:50%;
+    width:65%;
     height:auto;
 }
 
@@ -141,25 +142,64 @@ footer a {
 .mapouter {
     position: relative;
     text-align: right;
-    height: 400px;
-    width: 500px;
 }
 
 .gmap_canvas {
     overflow: hidden;
     background: none !important;
-    height: 400px;
-    width: 500px;
 }
 
-.socialIcons {
-    padding-left : 180px;
-    padding-right : 180px;
+.gmap_canvas iframe {
+    width:300px;
+    height:280px;
 }
+
 .socialIcon {
     width:30px;
     height:auto;
 }
+
+@media (min-width: 576px) { 
+    .diploma {
+        width :68%;
+    }
+
+    .gmap_canvas iframe {
+        width:500px;
+    }
+
+    
+.buttonCont {
+    top: 60%;
+}
+}
+
+@media (min-width: 768px) { 
+    .flex1-a {
+        width:60%;
+    }
+    .flex1-b {
+        width:40%
+    }
+    .book {
+        width:50%;
+    }
+ }
+
+@media (min-width: 992px) { 
+    .gmap_canvas iframe {
+        height:400px;
+    }
+
+    .button {
+        height: 90px;
+    }
+
+    .diploma {
+        width :57%;
+    }
+
+ }
 
 
 /****************************** COACHING *********************/
@@ -185,7 +225,7 @@ nav img {
 }
 
 .coachingMenu {
-   height: 650px;
+   height: 765px;
    background-image: url("images/golf1.jpg");
    background-position: center;
    background-repeat: no-repeat;
