@@ -168,6 +168,10 @@ footer a {
         width:500px;
     }
 
+    .book {
+        width:45%;
+    }
+
     
 .buttonCont {
     top: 60%;
@@ -182,7 +186,7 @@ footer a {
         width:40%
     }
     .book {
-        width:50%;
+        width:40%;
     }
  }
 
@@ -197,6 +201,10 @@ footer a {
 
     .diploma {
         width :57%;
+    }
+
+    .book {
+        width:50%;
     }
 
  }
