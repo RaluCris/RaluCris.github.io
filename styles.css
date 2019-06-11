@@ -251,7 +251,7 @@ nav img {
     border : 1px solid #fff;
     color : #fff;
     background-color: #0a3d31;
-    width:460px;
+    width:410px;
 }
 
 .contactCont {
@@ -260,7 +260,7 @@ nav img {
     border : 1px solid #fff;
     color : #0a3d31;
     background-color: #fff;
-    width:460px;
+    width:410px;
 }
 
 .contactCont a {
@@ -272,6 +272,17 @@ nav img {
 .contactCont a:hover {
     color:  #126e58;
     text-decoration : none;
+}
+
+@media (min-width: 576px) 
+{
+
+    .titleCont {
+        width:410px;
+    }
+    .contactCont {
+        width:460px;
+    }
 }
 
         
