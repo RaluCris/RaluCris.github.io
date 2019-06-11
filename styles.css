@@ -159,6 +159,10 @@ footer a {
     height:auto;
 }
 
+footer {
+    padding-bottom:50px;
+}
+
 @media (min-width: 576px) { 
     .diploma {
         width :68%;
