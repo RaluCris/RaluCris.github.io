@@ -107,6 +107,7 @@ p {
 
 .subHeading {
     margin-top:100px;
+    -webkit-margin-top:100px;
 }
 
 .secondImg {
