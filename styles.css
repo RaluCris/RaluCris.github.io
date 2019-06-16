@@ -42,9 +42,6 @@ p {
     width :100%;
 }
 
-.diploma {
-    width : 40%;
-}
 
 .buttonCont {
     position: absolute;
@@ -67,10 +64,28 @@ p {
 }
 
 .diploma {
-    width :57%;
+    width :260px;
     height: auto;
     border: 3px solid #0a3d31;
 }
+
+.guyCont {
+    flex-basis:50%;
+    height:450px;
+}
+
+.guy1 {
+    background-image: url("images/guy1.jpg");
+    background-repeat : no-repat;
+    background-size: cover;
+}
+
+.guy2 {
+    background-image: url("images/guy2.jpg");
+    background-repeat : no-repat;
+    background-size: cover;
+}
+
 
 .grass{
     width:30px;
@@ -99,6 +114,11 @@ p {
 .homeIntroCont {
     font-style : italic;
     width : 80%;
+}
+
+.homeIntroCont img {
+    width:300px;
+    height:auto;
 }
 
 .flex1-a {
@@ -164,9 +184,6 @@ footer {
 }
 
 @media (min-width: 576px) { 
-    .diploma {
-        width :68%;
-    }
 
     .gmap_canvas iframe {
         width:500px;
@@ -203,12 +220,11 @@ footer {
         height: 90px;
     }
 
-    .diploma {
-        width :57%;
-    }
-
     .book {
         width:50%;
+    }
+    .guyCont {
+        height:650px;
     }
 
  }
